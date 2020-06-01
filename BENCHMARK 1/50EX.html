@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <!--
+
+        HTML EXERCISES
+
+        1) Create a title for the page -->
+
+        <head>
+          <title>Strive Rocks</title>
+        </head>
+  
+  <!--  2) Create a heading -->
+        
+         <body>
+          <h1>This is Arbiona's first Benchmark!</h1>
+         </body>
+    
+  <!--  3) Create an ordered list -->
+         <body>
+          <ol>
+            <li>Home</li>
+            <li>About me</li>
+            <li>Projects</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ol>
+         </body>
+    
+  <!--  4) Create a table with 5 columns and 4 rows -->
+
+<head>
+  <title>STRIVE Rocks</title>
+  <style>
+    table,th,td{
+      border: solid;
+      border-collapse: collapse;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <th>HTML EXERCISES</th>
+      <th>CSS EXERCISES</th>
+      <th>JS EXERCISES</th>
+      <th>DOM EXERCISES</th>
+      <th>EXTRA EXERCISES</th>
+    </tr>
+    <tr>
+      <td>num 1</td>
+      <td>num 2</td>
+      <td>num 3</td>
+      <td>num 4</td>
+      <td>num 5</td>
+    </tr>
+    <tr>
+      <td>num 1</td>
+      <td>num 2</td>
+      <td>num 3</td>
+      <td>num 4</td>
+      <td>num 5</td>
+    </tr>
+    <tr>
+      <td>num 1</td>
+      <td>num 2</td>
+      <td>num 3</td>
+      <td>num 4</td>
+      <td>num 5</td>
+    </tr>
+  </table>
+</body>
+
+
+<!--    5) Add an image for each second cell of the first row -->
+
+        <tr>
+          <th>HTML EXERCISES</th>
+          <th><img src="https://cdn.hipwallpaper.com/i/75/32/4dNBYp.png" height=100 width=140></img></th>
+          <th>JS EXERCISES</th>
+          <th><img src="https://www.javascript-kurs.de/bilder/dom-beispiel-document-object-model.jpg" height=110 width=140></img></th>
+          <th>EXTRA EXERCISES</th>
+          </tr>        
+    
+<!--    6) Merge together 2 table cells -->
+        
+        <tr>
+          <td colspan="2">num1+2</td>
+          <td>num 3</td>
+          <td>num 4</td>
+          <td>num 5</td>
+        </tr>
+   
+<!--    7) Add a link for every image  -->
+           
+          <tr>
+            <th>HTML EXERCISES</th>
+            <th><a href="https://cdn.hipwallpaper.com/i/75/32/4dNBYp.png">
+              <img src="https://cdn.hipwallpaper.com/i/75/32/4dNBYp.png" height=100 width=140></a></th>
+            <th>JS EXERCISES</th>
+            <th><a href="https://www.javascript-kurs.de/bilder/dom-beispiel-document-object-model.jpg">
+            <img src="https://www.javascript-kurs.de/bilder/dom-beispiel-document-object-model.jpg" height=110 width=140></th>
+            <th>EXTRA EXERCISES</th>
+          </tr>
+
+<!--    8) Divide the page using a horizontal line  -->
+<!--    9) Create a container with a nested paragraph and a nested unordered list  -->
+<!--    10) Create a footer with some information about the page creator  -->
+        
+        <footer>
+          <h1>Arbiona Shahu</h1>
+          <h4>CREATIVE DESIGNER</h4>
+          <p>Hello,<br/><br/> I'm creative designer with experience in Multimedia, Marketing, and Architecture.</p>
+          <p> I've always loved solving problems and I'm on the lookout for new opportunities!<br/><br/>Cheers!</p>
+          <h4>ADRESS</h4>
+          <p>Postal Address: 1001, Tirana, Albania.</p>
+          <h4>EMAIL</h4>
+          <p>arbiona.shahu@gmail.com</p>
+        </footer>
+        
+
+  
+
+
+<!--    CSS EXERCISES  
+
+        11) Give a maximum width to the body and center it in the page  --->
+
+        <style>
+          #aboutme {text-align:center; margin: 0px auto;}
+
+          body {width: 100%; }
+        </style>          
+      
+        <body>
+          <div id="aboutme"><p>Hello,<br/><br/> I'm creative designer with experience in Multimedia, Marketing, and Architecture.</p>
+            <p> I've always loved solving problems and I'm on the lookout for new opportunities!<br/><br/>Cheers!</p></div>
+        </body>     
+             
+<!--    12) Set every h1 to be centered -->
+
+        <body>
+          <h1>This is Arbiona's first Benchmark!</h1>
+        </body>
+        
+        <style>
+          h1 {
+            width:500px;
+            margin: 0 auto;
+            background: yellow;
+            text-align: center;
+          }
+        </style>
+
+<!--    13) Change the color of each link in the page
+        14) Create a class with a border
+        15) Set table to have rounded borders -->
+
+        <style>
+          table { 
+          border: 1px solid blueviolet;
+          border-collapse: separate;
+          border-left: 0;
+          border-radius: 20px;
+          border-spacing: 0px;
+      }
+      
+      th, td {
+          padding: 5px 4px 6px 4px; 
+          text-align: left;
+          vertical-align: top;
+          border-left: 1px solid blueviolet;    
+      }
+      td {
+          border-top: 1px solid blueviolet;    
+        </style>
+
+
+
+/*      16) Add margin between every paragraph -->?
+        17) Create a class which change font size and boldness
+        18) Create a class to hide a content
+        19) Add a green border to each td
+        20) Add a dotted red border to each tr */
+
+        /* JS EXERCISES   */
+
+        /* 21) Given variable X = "John" and Y = "Doe", write on the console log "John <> Doe"  */
+
+        <script>
+          let X= "John "; let Y= "Doe";
+          document.write(X + Y);
+        </script>
+
+     /* 22) Create an object with properties such Name, Surname, Email --> */
+
+        <script>
+          let student = {firstName:"Arbiona", lastName:"Shahu", email:"arbiona.shahu@gmail.com"};
+          console.log(student)
+        </script>
+
+     /* 23) Delete Email from the previously created object --->  */
+
+        <script>
+          let student = {firstName:"Arbiona", lastName:"Shahu", email:"arbiona.shahu@gmail.com"};
+
+          delete student.email;
+          
+          console.log(student)
+        </script>
+
+/*     24) Create an array with 10 strings in it --> */
+
+        <script>
+          let animals = ["elephant", "bear", "giraffe", "lion", "penguin", "dolphin", "fox", "horse", "koala", "kangaroo"];
+        </script>
+
+/* <   25) Print in the console every string in the previous array --> */
+
+        <script>
+          let animals = ["elephant", "bear", "giraffe", "lion", "penguin", "dolphin", "fox", "horse", "koala", "kangaroo"];
+          console.log(animals)
+        </script>
+
+/* <!--    26) Create an array with 100 random numbers in it --> */
+
+        <p id="demo"></p>
+
+        <script>
+          document.getElementById("demo").innerHTML =
+          Math.floor(Math.random() * 100);
+        </script>
+
+        /* 27) Wrote a function to get the MAX and the MIN from the previously created array 
+        28) Create an array of arrays, in which every array has 10 random numbers
+        29) Create a function that gets 2 arrays and returns the longest one
+        30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values */
+
+/* //    DOM    */
+
+        /* 31) Get element with ID "container" from the page
+        32) Get every "td" from the page
+        33) Create a cycle that prints the text inside every td of the page
+        34) Write a function to change the heading of the page  --->// */
+
+        <body>
+          <h1>This is Arbiona's first Benchmark!</h1> 
+      
+          <p>Click the button to change the heading.</p>
+          <button onclick="changeHeading()">Try it</button>
+          
+          <p id="demo"></p>
+        </body>
+          
+        <script>
+          function changeHeading() {
+          document.heading = ("<h1>First Benchmark</h1>");
+          document.getElementById("demo").innerHTML =   ("<h1>First Benchmark</h1>");
+        }
+        </script>
+
+/* <!-- 35) Write a function to add an extra row to the table  ---> */
+
+        <body>
+          <table id="myTable">
+            <tr>
+              <th>HTML EXERCISES</th>
+              <th>CSS EXERCISES</th>
+              <th>JS EXERCISES</th>
+              <th>DOM EXERCISES</th>
+              <th>EXTRA EXERCISES</th>
+            </tr>
+            <tr>
+              <td>num 1</td>
+              <td>num 2</td>
+              <td>num 3</td>
+              <td>num 4</td>
+              <td>num 5</td>
+            </tr>
+            <tr>
+              <td>num 1</td>
+              <td>num 2</td>
+              <td>num 3</td>
+              <td>num 4</td>
+              <td>num 5</td>
+            </tr>
+            <tr>
+              <td>num 1</td>
+              <td>num 2</td>
+              <td>num 3</td>
+              <td>num 4</td>
+              <td>num 5</td>
+            </tr>
+          </table>
+        </body>     
+        
+        <button type="button" onclick="myFunction()">Try it</button>
+
+        <script>
+          function myFunction() {
+              var table = document.getElementById("myTable");
+              var row = table.insertRow(4);
+              var cell1 = row.insertCell(0);
+              var cell2 = row.insertCell(1);
+              var cell3 = row.insertCell(1);
+              var cell4 = row.insertCell(1);
+              var cell5 = row.insertCell(1);
+              cell1.innerHTML = "NEW CELL HTML";
+              cell2.innerHTML = "NEW CELL EXTRA";
+              cell3.innerHTML = "NEW CELL DOM";
+              cell4.innerHTML = "NEW CELL JS";
+              cell5.innerHTML = "NEW CELL CSS";
+              }
+        </script>
+
+
+/* <!--    36) Write a function to add the class "test" to reach row in the table
+        37) Write a function to add a red background to every link in the page --> */
+
+        <div>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/arbiona/">LinkedIn Profile</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://github.com/arb1ona/">Github Profile</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://www.behance.net/arbiona1/">Behance Profile</a></li>
+          </ul>
+        </div>
+        
+        <button type="button" onclick="paintItRed()">Try it</button>
+        
+        <script>
+          function paintItRed() {
+            let x = document.querySelectorAll('ul')
+            x.forEach(element => { element.style.backgroundColor = "red"});
+          }
+        </script>
+
+        /* 38) Console log "Page loaded" when the page is correctly loaded
+        39) Write a function to add new items to a UL
+        40) Write a function to empty a list */
+
+        EXTRA 
+
+        41) Add an eventListener to alert when the mouse is over a link, displaying the URL
+        42) Add a button to hide every image on the page
+        43) Add a button to hide and show the table from the page
+        44) Write a function to sum every number inside the TD (if the content is numeric)
+        45) Delete the last letter from the title each time the user clicks on it
+        46) Change the a single TD backgrund color when the user clicks on it
+        47) Add a button DELETE, on click it should delete a random TD from the page
+        48) Add a pink border to a cell when the mouse is over
+        49) Write a function to add a table with 4 rows and 3 lines programmatically
+        50) Write a function to remove the table from the page
+    -->
+
+  <head> </head>
+  <body></body>
+</html>
